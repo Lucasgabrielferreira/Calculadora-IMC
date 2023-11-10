@@ -24,14 +24,21 @@ div {
   height: 100%;
 }
 
-form {
+#formu h1{
+  line-height: 220%;
+  padding-top: 0px;
+}
+
+#formu {
   opacity: 0.8;
   font-family: "Courier New", Courier, monospace;
   font-size: 110%;
   position: relative;
   text-align: center;
+  text-justify: distribute;
   line-height: 185%;
-  background-color: #afe0be;
+  padding-top: 30px;
+  background-color: #8be9dd;
   box-shadow: 0px 0px 5px 5px black;
   border-radius: 10px;
   left: 50%;
@@ -42,10 +49,11 @@ form {
   margin-top: -130px;
 }
 
+
 @media (max-width: 410px) {
-  form {
+  #formu {
     width: 260px;
-    height: 370px;
+    height: 470px;
     margin-left: -130px;
     margin-top: -170px;
   }
